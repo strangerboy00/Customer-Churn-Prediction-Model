@@ -150,17 +150,6 @@ with st.sidebar:
     )
     
     st.divider()
-    
-    st.markdown("### 📊 Model Telemetry")
-    st.markdown("""
-    - **Architecture**: `RandomForestClassifier`
-    - **Total Estimators**: `100 Trees`
-    - **Trained Features**: `19 Features`
-    - **Scikit-Learn**: `v1.6.1`
-    - **Deployment**: `Streamlit Cloud Ready`
-    """)
-    
-    st.divider()
     st.caption("Developed for predictive customer retention workflows.")
 
 # ---------------------------------------------------------
