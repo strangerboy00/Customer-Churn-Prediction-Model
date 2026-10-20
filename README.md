@@ -52,21 +52,14 @@ The app will open automatically in your browser at `http://localhost:8501`.
 
 Deploying this app publicly for free on [Streamlit Community Cloud](https://streamlit.io/cloud) takes less than 2 minutes:
 
-### Step 1: Push this Project to GitHub
-1. Create a new repository on [GitHub](https://github.com/new) (e.g. `customer-churn-model`). You can make it **Public**.
-2. Link your local project and push to GitHub:
-   ```bash
-   git add .
-   git commit -m "feat: complete customer churn prediction streamlit app"
-   git branch -M main
-   git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>.git
-   git push -u origin main
-   ```
+### Step 1: Repository on GitHub
+The project is published at:
+[https://github.com/strangerboy00/Customer-Churn-Prediction-Model](https://github.com/strangerboy00/Customer-Churn-Prediction-Model)
 
 ### Step 2: Deploy on Streamlit Community Cloud
 1. Go to [share.streamlit.io](https://share.streamlit.io) and log in with your GitHub account.
 2. Click **"New app"**.
-3. Select your repository: `<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>`.
+3. Select your repository: `strangerboy00/Customer-Churn-Prediction-Model`.
 4. Branch: `main`.
 5. Main file path: `app.py`.
 6. Click **"Deploy!"**.
