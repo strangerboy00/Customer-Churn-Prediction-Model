@@ -83,6 +83,7 @@ Streamlit Cloud will automatically detect `requirements.txt`, install dependenci
   - *Demographics*: `gender`, `SeniorCitizen`, `Partner`, `Dependents`, `tenure`
   - *Services*: `PhoneService`, `MultipleLines`, `InternetService`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`
   - *Contract & Billing*: `Contract`, `PaperlessBilling`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`
-- **Artifacts**:
+- **Artifacts & Notebooks**:
+  - `CustomerChurn.ipynb`: Google Colab training notebook containing EDA, preprocessing, model evaluation, and export.
   - `customer_churn_model.pkl`: Model weights and feature mappings.
   - `encoders.pkl`: Fitted LabelEncoders for all categorical features.
